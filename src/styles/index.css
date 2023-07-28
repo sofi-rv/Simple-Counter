@@ -1,6 +1,17 @@
+
 .row-counter{
-   height: 70px;
+ background-color: rgb(7,7,7);
+   height: 90px;
 }
 .clock{
     font-size: xx-large;
+    margin: 15px;
+
+}
+.seconds{
+    margin: 15px;
+}
+.col {
+    background-color: rgb(16,16,16);
+
 }
