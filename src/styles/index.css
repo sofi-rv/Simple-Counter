@@ -1,17 +1,22 @@
 
 .row-counter{
  background-color: rgb(7,7,7);
-   height: 90px;
+ border-radius: 10px;
+   height: 100px;
 }
 .clock{
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     margin: 15px;
 
 }
 .seconds{
     margin: 15px;
+    font-size: 50px;
 }
 .col {
     background-color: rgb(16,16,16);
+    border-radius: 10px;
+    font-size: 50px;
+    width: 100%;
 
 }
