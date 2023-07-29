@@ -41,24 +41,24 @@ const SecondsCounter = (props) => {
     return (
         <>
             <div className="container">
-                <div className="row mt-2 row-counter">
-                    <div className=" col text-light text-center border-1 border-start border-secondary border-end clock"><i class="far fa-clock fa-flip-horizontal"></i></div>
-                    <div className="col text-light text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                <div className="row mt-2 row-counter d-flex justify-content-center ">
+                    <div className="col text-light text-center border-1 border-start border-secondary border-end clock"><i class="far fa-clock fa-flip-horizontal"></i></div>
+                    <div className="col text-light text-center  border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                     <h1>{sixthDigit(props.secondSix) > 0 ? sixthDigit(props.secondSix) : "0"}</h1>
                     </div>
-                    <div className="col text-light text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                    <div className="col text-light text-center  border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                     <h1>{fifthDigit(props.secondFive) > 0 ? fifthDigit(props.secondFive) : "0"}</h1>
                     </div>
-                    <div className="col text-light text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                    <div className="col text-light text-center  border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                     <h1>{fourthDigit(props.secondFour) > 0 ? fourthDigit(props.secondFour) : "0"}</h1>
                     </div>
-                    <div className="col  text-light text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                    <div className="col  text-light text-center  border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                     <h1>{thirdDigit(props.secondThree) > 0 ? thirdDigit(props.secondThree) : "0"}</h1>
                     </div>
-                    <div className="col text-light text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                    <div className="col text-light text-center  border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                         <h1>{secondDigit(props.secondTwo) > 0 ? secondDigit(props.secondTwo) : "0"}</h1>
                     </div>
-                    <div className="col text-light  text-center seconds border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center">
+                    <div className="col text-light  text-center border-1 border-start border-secondary border-end d-flex align-items-center justify-content-center seconds">
                         <h1>{oneDigit(props.secondOne) > 0 ? oneDigit(props.secondOne) : "0"}</h1>
                     </div>
                 </div>
